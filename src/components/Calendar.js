@@ -21,7 +21,7 @@ function MyCalendar() {
 
     const events = trainings.map((training) => {
         return {
-            title: training.activity,
+            title: training.activity + " / " + training.customer.lastname,
             start: moment(training.date).toDate(),
             end: moment(training.date).add(training.duration, 'minutes').toDate()
         }
@@ -32,7 +32,7 @@ function MyCalendar() {
             <Calendar
             localizer={localizer}
             events={events}
-            style={{ height: 500 }}
+            style={{ height: 600 }}
             />
         </div>
     )
