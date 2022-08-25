@@ -1,3 +1,9 @@
+# personalTrainer
+
+PersonalTrainer is a Front End programming project. User can add, edit and delete customers and their trainings.
+
+Technologies used: React and Material-UI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
